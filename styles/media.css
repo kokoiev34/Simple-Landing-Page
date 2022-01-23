@@ -1,0 +1,26 @@
+/* ! Media
+------------------------------------------------------------------ */
+@media screen and (max-width: 568px){
+    .header__nav,
+    .header__button{
+        display: none;
+    }
+    .header__menu-btn{
+        display: block;
+    }
+    .hero{
+        margin: 10px 10px;
+    }
+}
+
+@media(max-width: 568px){
+    *{
+        margin: 15px;
+    }
+}
+
+@media (max-width: 568px){
+    .product{
+        display: block;
+    }
+}

@@ -1,0 +1,315 @@
+/* ! Basic Styles
+------------------------------------------------------------------ */
+
+body{
+    font-family: 'Nunito Sans', sans-serif;
+    background: #EBEBEB; 
+}
+.wrapper {
+    max-width: 1230px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}   
+.header__logo {
+    padding: 0 10px;
+}
+
+.header__nav{
+    display: flex;
+    justify-content: center;
+}
+
+.header__link{
+    margin: 0 5px;
+    font-size: 16px;
+    color: #2B2B2B;
+}
+.header__button{
+    padding: 11px 15px;
+    background: #423F3E;
+    font-weight: bold;
+    font-size: 18px;
+    color: #FFFFFF;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+.header__menu-btn{
+    display: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+/* ! HERO
+------------------------------------------------------------------ */
+.hero{
+    margin: 160px 130px;
+}
+
+.hero__title{
+    display: flex;
+    margin-bottom: 30px;
+    justify-content: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    text-align: center;
+}
+
+.hero__subtitle{
+    text-align: center;
+}
+.hero__article{
+    margin: 20px;
+    text-align: center;
+}
+
+/* ! ABOUT
+------------------------------------------------------------------ */
+.about{
+    padding: 70px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.about__content{
+    width: 600px;
+}
+
+.about__title{
+    padding-bottom: 20px;
+    font-weight: bold;
+    font-size: 53px;
+    line-height: 120%;
+    color: #2B2B2B;
+    width: 700px;
+}
+
+.about__articles{
+    display: flex;
+}
+
+.about__article{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.about__article-preview{
+    padding-bottom: 10px;
+}
+
+.about__article-link-svg{
+    display: flex;
+    text-align: center;
+}
+.about__article-link{
+    color: black;
+    justify-content: center;
+    align-items: center;
+}
+
+.about__image{  
+    margin-left: 25px;
+    width: 430px;
+    height: 430px;
+    background: url("../assets/sleeping_corgi.jpg") center/cover no-repeat;
+}
+
+/* ! PRODUCT
+------------------------------------------------------------------ */
+
+.product{
+    display: flex;
+    align-items: center;
+}
+
+.product__content{
+    height: 150px;
+    width: 500px;
+}
+
+.product__title{
+    margin-bottom: 15px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 39px;
+    line-height: 120%;
+}
+
+.product__article{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    width: 550px;
+}
+
+.product__links{
+    margin-left: 300px;
+    height: 215px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+
+.product__item{
+    margin: 5px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 31px;
+    line-height: 42px;
+    
+}
+
+/* ! DESIGN
+------------------------------------------------------------------ */
+
+.design{
+    margin-top: 50px;
+    display: flex;
+}
+
+.design_topic{
+    height: 140px;
+    width: 350px;
+}
+
+.design__title{
+    margin-bottom: 10px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 34px;
+}
+
+.design__article{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.design__images{
+    margin-left: 40px;
+    width: 850px;
+}
+
+.design__img{
+    margin-left: 30px;
+    height: 214px;
+    width: 240px;
+    object-fit: cover;
+    
+}
+
+/* ! FEEDBACK
+------------------------------------------------------------------ */
+
+.feedback{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+.feedback__title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 53px;
+    line-height: 120%;
+    text-align: center;
+}
+
+.feedback__cards{
+    display: flex;
+    margin: 20px;
+    justify-content: center;
+}
+
+.feedback_figure{
+    background: #EBEBEB;
+    margin: 20px;
+    padding: 60px;
+    border-radius: 5px;
+    height: 300px;
+    width: 440px;
+    filter: drop-shadow(0 0 2px rgb(0, 0, 0, 0.1));
+    
+}
+
+.feedback__figure-text{
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.feedback__figure-name{
+    margin-top: 10px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 28px;
+    
+}
+
+.feedback__figure-profession{
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+/* ! FOOTER
+------------------------------------------------------------------ */
+
+.footer{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__logo{
+    margin: 0;
+    padding: 0;
+}
+
+.footer__information{
+    margin: 0;
+    padding: 0;
+}
+
+.footer__subtitle{
+    margin: 0;
+    padding: 0;
+}
+
+.footer__social-media{
+    display: flex;
+    margin: 15px 0;
+}
+
+.footer__svg-icons{
+    margin: 0 8px;
+    border: none;
+}
+
+.footer__copyright{
+    flex-wrap: wrap;
+    width: 170px;
+}
